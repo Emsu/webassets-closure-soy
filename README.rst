@@ -12,7 +12,9 @@ but this package will look for the ``closure-soy`` package for easy setup.
 In your assets.py file:
 
     from webassets_ext import ClosureSoyFilter
+
     from webassets.filter import register_filter
+
     register_filter(ClosureSoyFilter)
 
 Then use filter="closure_soy" wherever you want to use it.
