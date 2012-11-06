@@ -3,8 +3,10 @@ Usage
 -----
 
 Easiest way to install:
-``pip install closure-soy``
-``pip install webassets-closure-soy``
+
+    pip install closure-soy
+
+    pip install webassets-closure-soy
 
 You can set environment variables to use your own SoyToJsSrcCompiler.jar
 but this package will look for the ``closure-soy`` package for easy setup.
